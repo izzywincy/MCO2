@@ -23,29 +23,27 @@
   </div>
   <div>
     <label for="age">Age:</label>
-    <input disabled type="number" id="age" name="age" >
+    <input type="number" id="age" name="age" >
   </div>
   <div>
     <label for="gender">Gender:</label>
-    <input disabled type="radio" id="female" name="gender" >
+    <input type="radio" id="female" name="gender" >
     <label for="female">Female</label>
-    <input disabled type="radio" id="male" name="gender" >
+    <input type="radio" id="male" name="gender" >
     <label for="male">Male</label>
   </div>
   <div>
     <label for="date">Date:</label>
-    <input disabled type="date" id="date" name="date" >
+    <input type="date" id="date" name="date" >
   </div>
   <div>
     <label for="time">Time:</label>
-    <input disabled type="time" id="time" name="time" > 
+    <input type="time" id="time" name="time" > 
   </div>
   <br>
+  <button onclick="updateAppointment()">Save</button>
   <button onclick="deleteAppointment()">Delete Appointment</button>
-  <button onclick="updateAppointment()">Edit Appointment</button>
-  <div id="appointments"></div>
   <br>
-  <button>Save</button>
 
   <script src="script.js"></script>
 </body>
